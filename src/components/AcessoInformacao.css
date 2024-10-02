@@ -1,0 +1,66 @@
+/* Estilos padrão do componente AcessoInformacao */
+.acesso-informacao {
+  padding: 20px;
+  background-color: #f5f5f5; /* Cor de fundo padrão */
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+  width: 48%;
+}
+
+.coluna-esquerda p,
+.coluna-direita p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.imagens-historicas {
+  text-align: center;
+}
+
+.galeria-imagens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinha as imagens e textos ao centro verticalmente */
+  margin-top: 20px;
+}
+
+.imagem {
+  width: 20%; /* Reduz o tamanho da imagem para 20% da largura do container */
+  margin-right: 10px; /* Adiciona um pequeno espaçamento à direita da imagem */
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.imagem p {
+  text-align: left; /* Alinha o texto à esquerda */
+  font-size: 0.8em; /* Diminui o tamanho do texto */
+  line-height: 1.4; /* Ajusta a altura da linha */
+  margin-top: 10px;
+}
+
+.galeria-imagens .texto {
+  width: 75%; /* Define o espaço para o texto ao lado da imagem */
+  font-size: 0.9em; /* Diminui o tamanho do texto */
+  text-align: left; /* Texto alinhado à esquerda */
+}
+
+/* Estilos para o Dark Mode (Modo Escuro) */

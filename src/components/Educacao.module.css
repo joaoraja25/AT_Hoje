@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.imgContainer {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 300px;
+  margin: 10px;
+}
+
+.textContent {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.flexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.flexItem {
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 10px;
+}
+
+.gridItem img {
+  width: 100%;
+  height: 200px; /* Altura fixa para garantir que todas as imagens tenham o mesmo tamanho */
+  object-fit: cover; /* Garante que a imagem se ajuste corretamente, sem distorcer */
+  border-radius: 8px;
+}
+
+.gridItem p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Estilos padrão */
+.container {
+  background-color: #f4f4f4; /* Cor padrão do fundo */
+  padding: 40px;
+  color: black; /* Cor padrão do texto */
+}
+
+/* Modo escuro */
+.darkMode {
+  background-color: #333; /* Cor de fundo no modo escuro */
+  color: white; /* Cor do texto no modo escuro */
+}
+
+.darkMode a {
+  color: #f09d42; /* Cor do link no modo escuro */
+}
+
+.darkMode a:hover {
+  color: #ffb74d; /* Cor do link ao passar o mouse no modo escuro */
+}
+
+.darkMode img {
+  opacity: 0.9; /* Imagem um pouco mais escura no modo escuro */
+}
